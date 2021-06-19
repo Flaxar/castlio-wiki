@@ -3,4 +3,9 @@ site_url: https://example.com/
 theme: windmill-dark
 nav:
     - Home: index.md
-    - Crafting: crafting.md
+    - Newcomer's Guide: new_player's_guide.md
+    - Crafting:
+        - Items: items.md
+        - Blocks: blocks.md
+    - Mobs: mobs.md
+    - Roadmap: roadmap.md
