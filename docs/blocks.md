@@ -1,7 +1,7 @@
 # Blocks
 
 ## Ingredients
-* Wood = 2 stick 
+* Wood = 2 stick
 
 ## Walls
 * Stone door = Stone wall + stone
@@ -36,7 +36,7 @@
 * Spikes = 1 stone + 1 iron
 
 ## Honorable uncraftable mentions
-* Workbench - also industructable or 4 stone
-* Bombs - destroy block much much faster
+* Workbench - also indestructible or 4 stone
+* Bombs - destroys block much much faster
 * Tombstone - when player dies, tombstone is created
 * Food - steaks, apples and other consumable items are for now uncraftable.
