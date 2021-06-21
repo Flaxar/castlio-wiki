@@ -59,8 +59,3 @@ one key for chests and doors.
 | Extra  | Crafting        |
 | ------ | --------------- |
 | Spikes | 1 stone, 1 iron |
-
-## Honorable uncraftable mentions
-* Bombs - destroys block much much faster
-* Tombstone - when player dies, tombstone is created
-* Food - steaks, apples and other consumable items are for now uncraftable.
