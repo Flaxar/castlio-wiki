@@ -1,12 +1,12 @@
 # Items
 
 ## Tools
-| Tool     | Crafting       | Usage                       |
-| -------- | -------------- | --------------------------- |
-| Shovel   | Stone, stick   | Remove grass, sand and road |
-| Axe      | 2 Stone, stick | Cut trees                   |
-| Pickaxe  | 3 Stone, stick | Mine rock                   |
-| Backpack | 5 leather      | 3 extra inventory slots*    |
+| Tool     | Crafting                                      | Usage                       |
+| -------- | --------------------------------------------- | --------------------------- |
+| Shovel   | Stone, stick                                  | Remove grass, sand and road |
+| Axe      | 2 Stone, stick / Shovel, stone                | Cut trees                   |
+| Pickaxe  | 3 Stone, stick / Shovel, 2 stone / Axe, stone | Mine rock                   |
+| Backpack | 5 leather                                     | 3 extra inventory slots*    |
 
 **Technically two, because one is occupied by backpack. Backpacks are not stackable.*
 

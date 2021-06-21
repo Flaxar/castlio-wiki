@@ -1,42 +1,66 @@
 # Blocks
 
 ## Ingredients
-* Wood = 2 stick
-
-## Walls
-* Stone door = Stone wall + stone
-* Stone wall = 4 stone
-* Stone window = Stone wall + 2 stone
+| Ingredient | Crafting |
+| ---------- | -------- |
+| Wood       | 2 stick  |
 
 ## Storage blocks
-* Cabinet = 3 Wood
-* Small Chest = 2 wood
-* Large Chest / Small Chest + 2 wood = 4 wood
-* Locked Chest = 2/4 wood + rare material / chest + rare material
-* Locked Door = Door + rare material
-* Key = 3 rare material (opens every locked item owned by you)
+Locked chest info: You will need a key to open locked chest. Using that key will
+bind the key to the chest, chest will open only using that key. One key can be
+used to bind multiple locked chests, but locked chest has only one binding key.
+Do not lose your keys.
+
+| Storage                | Crafting                     | Storage slots   |
+| ---------------------- | ---------------------------- | --------------- |
+| Cabinet                | 3 wood                       | 1 slot          |
+| Small Chest            | 2 wood                       | 5 slots         |
+| Large Chest            | 4 wood / Small chest, 2 wood | 7 slots         |
+| Small locked chest     | small chest, gem             | 3 slots         |
+| Large locked chest     | large chest, gem             | 5 slots         |
+| Key                    | 3 gem                        | -               |
+
+
+## Workbenches
+| Workbench          | Crafting                  | Crafting slots |
+| ------------------ | ------------------------- | -------------- |
+| Small workbench    | 4 stone                   | 4 slots        |
+| Medium workbench   | small workbench, 3 stone  | 6 slots        |
+| Large workbench    | medium workbench, 5 stone | 9 slots        |
 
 ## Walls
-* Wood wall = 4 wood
-* Wooden Door = Wood wall + stick
-* Wooden window = Woodwall + 2 stick
+Locked doors work in the similar manner as locked chests. You can even use
+one key for chests and doors.
+
+| Wall          | Crafting            |
+| ------------- | ------------------- |
+| Wood wall     | 4 wood              |
+| Wooden door   | wood wall, stick    |
+| Wooden window | wood wall, 2 stick  |
+| Stone wall    | 4 stone             |
+| Stone door    | stone wall, stone   |
+| Stone window  | stone wall, 2 stone |
+| Locked door   | door, gem           |
 
 ## Decorative blocks
-* Bookshelf = 2 Wood
-* Road stones = 1 stone
-* Sign = 2 wood + 1 stick
-* Chair = Wood + 2 stick
-* Fireplace = 2 stone
-* Table = Wood + 4 stick
-* Tiki torch = 1 wood + 2 sticks
-* Bed = 2 wood + leather
-* Stove = 3 stone / Fireplace + 1 stone
+| Block       | Crafting
+| ----------- | ---------------------------- |
+| Bookshelf   | 2 wood                       |
+| Road stones | 1 stone                      |
+| Sign        | 2 wood, 1 stick              |
+| Chair       | wood, 2 stick                |
+| Fireplace   | 2 stone                      |
+| Table       | wood, 4 stick                |
+| Torch       | 1 wood, 2 sticks             |
+| Bed         | 2 wood, leather              |
+| Stove       | 3 stone / fireplace, 1 stone |
 
 ## Extras
-* Spikes = 1 stone + 1 iron
+| Extra  | Crafting        |
+| ------ | --------------- |
+| Spikes | 1 stone, 1 iron |
 
 ## Honorable uncraftable mentions
-* Workbench - also indestructible or 4 stone
 * Bombs - destroys block much much faster
 * Tombstone - when player dies, tombstone is created
 * Food - steaks, apples and other consumable items are for now uncraftable.
