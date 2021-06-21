@@ -1,19 +1,37 @@
 # Roadmap
+Castlio is currently developed by two people. Please be patient for new updates.
 
-# First release
-* Basic world 
+## Planned updates
+These updates enhance the core castlio experience.
+
+### First release
+* Basic world
 * Crafting
 * Building
 * Enemy mobs
 
-# Second release
+### Second release
 * Animations
+* Sounds
 * Base shadowing
-* Random world generation
 
-# (some) Future release
+### Third release
+* Server Lobby
+* Random world generation
+* Proximity Chat
+
+## Possible updates
+These updates are like DLC, not necessary but nice to have. They are not in
+particular order. You can provide feedback which update you would like to see next.
+
+### Farming update
 * Farming
-* Craftable food items
-* Hoes
-* Farms
+* Food items
 * Animals
+* Quest NPCs
+
+### Combat update
+* Spell categories (fire / water / grass)
+* More weapons (about 20 of them)
+* Mana potions
+* Skill tree (?)

@@ -1,16 +1,21 @@
-# Welcome to castlio docs
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+# Castlio Wiki
 
-## Commands
+Welcome at castlio wiki. Castlio is online multiplayer survival game.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Guides
+For new comers and first time players we recommend to check [beginner's guide](beginners_guide.md). If you already know the basics, you can learn more
+advanced mechanics in [expert's guide](experts_guide.md), here you will find
+stat tables and some neat details.
 
-## Project layout
+## Index
+You can see index of all craftable [items](items.md) and [blocks](blocks.md).
+You can also check the stats of [mobs](mobs.md).
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Participation
+You can help with the development of castlio with several ways
+
+* Sharing the game with your friends
+* Feedback
+* Wiki development
+* Game development
+* Donation
