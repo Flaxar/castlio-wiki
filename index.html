@@ -34,9 +34,10 @@
       var is_top_frame = (window === window.parent);
         
         var pageToc = [
-          {title: "Welcome to castlio docs", url: "#_top", children: [
-              {title: "Commands", url: "#commands" },
-              {title: "Project layout", url: "#project-layout" },
+          {title: "Castlio Wiki", url: "#_top", children: [
+              {title: "Guides", url: "#guides" },
+              {title: "Index", url: "#index" },
+              {title: "Participation", url: "#participation" },
           ]},
         ];
 
@@ -97,21 +98,30 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
   <ul class="wm-toctree">
         <li class="wm-toc-li wm-toc-lev1 "><a href="" class="wm-article-link wm-toc-text">Home</a>
 </li>
-        <li class="wm-toc-li wm-toc-lev1 "><a href="new_player%27s_guide/" class="wm-article-link wm-toc-text">Newcomer's Guide</a>
-</li>
-        <li class="wm-toc-li wm-toc-lev1 wm-toc-opener"><span class="wm-toc-text">Crafting</span>
+        <li class="wm-toc-li wm-toc-lev1 wm-toc-opener"><span class="wm-toc-text">Guides</span>
 </li>
 <li class="wm-toc-li-nested collapse">
   <ul class="wm-toctree">
-      <li class="wm-toc-li wm-toc-lev2 "><a href="items/" class="wm-article-link wm-toc-text">Items</a>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="beginners_guide/" class="wm-article-link wm-toc-text">Beginner's Guide</a>
 </li>
-      <li class="wm-toc-li wm-toc-lev2 "><a href="blocks/" class="wm-article-link wm-toc-text">Blocks</a>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="experts_guide/" class="wm-article-link wm-toc-text">Experts's Guide</a>
 </li>
   </ul>
 </li>
 
-        <li class="wm-toc-li wm-toc-lev1 "><a href="mobs/" class="wm-article-link wm-toc-text">Mobs</a>
+        <li class="wm-toc-li wm-toc-lev1 wm-toc-opener"><span class="wm-toc-text">Tables</span>
 </li>
+<li class="wm-toc-li-nested collapse">
+  <ul class="wm-toctree">
+      <li class="wm-toc-li wm-toc-lev2 "><a href="blocks/" class="wm-article-link wm-toc-text">Blocks</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="items/" class="wm-article-link wm-toc-text">Items</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="mobs/" class="wm-article-link wm-toc-text">Mobs</a>
+</li>
+  </ul>
+</li>
+
         <li class="wm-toc-li wm-toc-lev1 "><a href="roadmap/" class="wm-article-link wm-toc-text">Roadmap</a>
 </li>
   </ul>
@@ -134,12 +144,12 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
   <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
     
     <div class="wm-article-nav pull-right">
-      <a href="new_player%27s_guide/" class="btn btn-xs btn-default pull-right">
+      <a href="beginners_guide/" class="btn btn-xs btn-default pull-right">
         Next
         <i class="fa fa-chevron-right" aria-hidden="true"></i>
       </a>
-      <a href="new_player%27s_guide/" class="btn btn-xs btn-link">
-        Newcomer's Guide
+      <a href="beginners_guide/" class="btn btn-xs btn-link">
+        Beginner's Guide
       </a>
     </div>
     
@@ -147,21 +157,25 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 
     
 
-    <h1 id="welcome-to-castlio-docs">Welcome to castlio docs</h1>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands</h2>
+    <h1 id="castlio-wiki">Castlio Wiki</h1>
+<p>Welcome at castlio wiki. Castlio is online multiplayer survival game.</p>
+<h2 id="guides">Guides</h2>
+<p>For new comers and first time players we recommend to check <a href="beginners_guide/">beginner's guide</a>.
+If you already know the basics, you can learn more
+advanced mechanics in <a href="experts_guide/">expert's guide</a>, here you will find
+stat tables and some neat details.</p>
+<h2 id="index">Index</h2>
+<p>You can see index of all craftable <a href="items/">items</a> and <a href="blocks/">blocks</a>.
+You can also check the stats of <a href="mobs/">mobs</a>.</p>
+<h2 id="participation">Participation</h2>
+<p>You can help with the development of castlio with several ways</p>
 <ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
+<li>Sharing the game with your friends</li>
+<li>Feedback</li>
+<li>Wiki development</li>
+<li>Game development</li>
+<li>Donation</li>
 </ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre>
 
   <br>
     
@@ -174,12 +188,12 @@ docs/
   <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
     
     <div class="wm-article-nav pull-right">
-      <a href="new_player%27s_guide/" class="btn btn-xs btn-default pull-right">
+      <a href="beginners_guide/" class="btn btn-xs btn-default pull-right">
         Next
         <i class="fa fa-chevron-right" aria-hidden="true"></i>
       </a>
-      <a href="new_player%27s_guide/" class="btn btn-xs btn-link">
-        Newcomer's Guide
+      <a href="beginners_guide/" class="btn btn-xs btn-link">
+        Beginner's Guide
       </a>
     </div>
     
@@ -196,5 +210,5 @@ docs/
 </html>
 <!--
 MkDocs version : 1.2.1
-Build Date UTC : 2021-06-19 16:31:02.866555+00:00
+Build Date UTC : 2021-06-21 23:06:26.238992+00:00
 -->

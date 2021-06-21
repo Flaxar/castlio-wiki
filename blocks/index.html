@@ -34,12 +34,11 @@
         var pageToc = [
           {title: "Blocks", url: "#_top", children: [
               {title: "Ingredients", url: "#ingredients" },
-              {title: "Walls", url: "#walls" },
               {title: "Storage blocks", url: "#storage-blocks" },
-              {title: "Walls", url: "#walls_1" },
+              {title: "Workbenches", url: "#workbenches" },
+              {title: "Walls", url: "#walls" },
               {title: "Decorative blocks", url: "#decorative-blocks" },
               {title: "Extras", url: "#extras" },
-              {title: "Honorable uncraftable mentions", url: "#honorable-uncraftable-mentions" },
           ]},
         ];
 
@@ -67,20 +66,20 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
   <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
     
     <div class="wm-article-nav pull-right">
-      <a href="../mobs/" class="btn btn-xs btn-default pull-right">
+      <a href="../items/" class="btn btn-xs btn-default pull-right">
         Next
         <i class="fa fa-chevron-right" aria-hidden="true"></i>
       </a>
-      <a href="../mobs/" class="btn btn-xs btn-link">
-        Mobs
+      <a href="../items/" class="btn btn-xs btn-link">
+        Items
       </a>
     </div>
     
     <div class="wm-article-nav">
-      <a href="../items/" class="btn btn-xs btn-default pull-left">
+      <a href="../experts_guide/" class="btn btn-xs btn-default pull-left">
         <i class="fa fa-chevron-left" aria-hidden="true"></i>
-        Previous</a><a href="../items/" class="btn btn-xs btn-link">
-        Items
+        Previous</a><a href="../experts_guide/" class="btn btn-xs btn-link">
+        Experts's Guide
       </a>
     </div>
     
@@ -90,53 +89,196 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 
     <h1 id="blocks">Blocks</h1>
 <h2 id="ingredients">Ingredients</h2>
-<ul>
-<li>Wood = 2 stick </li>
-</ul>
-<h2 id="walls">Walls</h2>
-<ul>
-<li>Stone door = Stone wall + stone</li>
-<li>Stone wall = 4 stone</li>
-<li>Stone window = Stone wall + 2 stone</li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>Ingredient</th>
+<th>Crafting</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Wood</td>
+<td>2 stick</td>
+</tr>
+</tbody>
+</table>
 <h2 id="storage-blocks">Storage blocks</h2>
-<ul>
-<li>Cabinet = 3 Wood</li>
-<li>Small Chest = 2 wood</li>
-<li>Large Chest / Small Chest + 2 wood = 4 wood</li>
-<li>Locked Chest = 2/4 wood + rare material / chest + rare material</li>
-<li>Locked Door = Door + rare material</li>
-<li>Key = 3 rare material (opens every locked item owned by you)</li>
-</ul>
-<h2 id="walls_1">Walls</h2>
-<ul>
-<li>Wood wall = 4 wood</li>
-<li>Wooden Door = Wood wall + stick</li>
-<li>Wooden window = Woodwall + 2 stick</li>
-</ul>
+<p>Locked chest info: You will need a key to open locked chest. Using that key will
+bind the key to the chest, chest will open only using that key. One key can be
+used to bind multiple locked chests, but locked chest has only one binding key.
+Do not lose your keys.</p>
+<table>
+<thead>
+<tr>
+<th>Storage</th>
+<th>Crafting</th>
+<th>Storage slots</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cabinet</td>
+<td>3 wood</td>
+<td>1 slot</td>
+</tr>
+<tr>
+<td>Small Chest</td>
+<td>2 wood</td>
+<td>5 slots</td>
+</tr>
+<tr>
+<td>Large Chest</td>
+<td>4 wood / Small chest, 2 wood</td>
+<td>7 slots</td>
+</tr>
+<tr>
+<td>Small locked chest</td>
+<td>small chest, gem</td>
+<td>3 slots</td>
+</tr>
+<tr>
+<td>Large locked chest</td>
+<td>large chest, gem</td>
+<td>5 slots</td>
+</tr>
+<tr>
+<td>Key</td>
+<td>3 gem</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+<h2 id="workbenches">Workbenches</h2>
+<table>
+<thead>
+<tr>
+<th>Workbench</th>
+<th>Crafting</th>
+<th>Crafting slots</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Small workbench</td>
+<td>4 stone</td>
+<td>4 slots</td>
+</tr>
+<tr>
+<td>Medium workbench</td>
+<td>small workbench, 3 stone</td>
+<td>6 slots</td>
+</tr>
+<tr>
+<td>Large workbench</td>
+<td>medium workbench, 5 stone</td>
+<td>9 slots</td>
+</tr>
+</tbody>
+</table>
+<h2 id="walls">Walls</h2>
+<p>Locked doors work in the similar manner as locked chests. You can even use
+one key for chests and doors.</p>
+<table>
+<thead>
+<tr>
+<th>Wall</th>
+<th>Crafting</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Wood wall</td>
+<td>4 wood</td>
+</tr>
+<tr>
+<td>Wooden door</td>
+<td>wood wall, stick</td>
+</tr>
+<tr>
+<td>Wooden window</td>
+<td>wood wall, 2 stick</td>
+</tr>
+<tr>
+<td>Stone wall</td>
+<td>4 stone</td>
+</tr>
+<tr>
+<td>Stone door</td>
+<td>stone wall, stone</td>
+</tr>
+<tr>
+<td>Stone window</td>
+<td>stone wall, 2 stone</td>
+</tr>
+<tr>
+<td>Locked door</td>
+<td>door, gem</td>
+</tr>
+</tbody>
+</table>
 <h2 id="decorative-blocks">Decorative blocks</h2>
-<ul>
-<li>Bookshelf = 2 Wood</li>
-<li>Road stones = 1 stone</li>
-<li>Sign = 2 wood + 1 stick</li>
-<li>Chair = Wood + 2 stick</li>
-<li>Fireplace = 2 stone</li>
-<li>Table = Wood + 4 stick</li>
-<li>Tiki torch = 1 wood + 2 sticks</li>
-<li>Bed = 2 wood + leather</li>
-<li>Stove = 3 stone / Fireplace + 1 stone</li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>Block</th>
+<th>Crafting</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bookshelf</td>
+<td>2 wood</td>
+</tr>
+<tr>
+<td>Road stones</td>
+<td>1 stone</td>
+</tr>
+<tr>
+<td>Sign</td>
+<td>2 wood, 1 stick</td>
+</tr>
+<tr>
+<td>Chair</td>
+<td>wood, 2 stick</td>
+</tr>
+<tr>
+<td>Fireplace</td>
+<td>2 stone</td>
+</tr>
+<tr>
+<td>Table</td>
+<td>wood, 4 stick</td>
+</tr>
+<tr>
+<td>Torch</td>
+<td>1 wood, 2 sticks</td>
+</tr>
+<tr>
+<td>Bed</td>
+<td>2 wood, leather</td>
+</tr>
+<tr>
+<td>Stove</td>
+<td>3 stone / fireplace, 1 stone</td>
+</tr>
+</tbody>
+</table>
 <h2 id="extras">Extras</h2>
-<ul>
-<li>Spikes = 1 stone + 1 iron</li>
-</ul>
-<h2 id="honorable-uncraftable-mentions">Honorable uncraftable mentions</h2>
-<ul>
-<li>Workbench - also industructable or 4 stone</li>
-<li>Bombs - destroy block much much faster</li>
-<li>Tombstone - when player dies, tombstone is created</li>
-<li>Food - steaks, apples and other consumable items are for now uncraftable.</li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>Extra</th>
+<th>Crafting</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Spikes</td>
+<td>1 stone, 1 iron</td>
+</tr>
+</tbody>
+</table>
 
   <br>
     
@@ -149,20 +291,20 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
   <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
     
     <div class="wm-article-nav pull-right">
-      <a href="../mobs/" class="btn btn-xs btn-default pull-right">
+      <a href="../items/" class="btn btn-xs btn-default pull-right">
         Next
         <i class="fa fa-chevron-right" aria-hidden="true"></i>
       </a>
-      <a href="../mobs/" class="btn btn-xs btn-link">
-        Mobs
+      <a href="../items/" class="btn btn-xs btn-link">
+        Items
       </a>
     </div>
     
     <div class="wm-article-nav">
-      <a href="../items/" class="btn btn-xs btn-default pull-left">
+      <a href="../experts_guide/" class="btn btn-xs btn-default pull-left">
         <i class="fa fa-chevron-left" aria-hidden="true"></i>
-        Previous</a><a href="../items/" class="btn btn-xs btn-link">
-        Items
+        Previous</a><a href="../experts_guide/" class="btn btn-xs btn-link">
+        Experts's Guide
       </a>
     </div>
     

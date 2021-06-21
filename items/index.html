@@ -33,11 +33,10 @@
         
         var pageToc = [
           {title: "Items", url: "#_top", children: [
-              {title: "Consumables", url: "#consumables" },
               {title: "Tools", url: "#tools" },
               {title: "Weapons", url: "#weapons" },
               {title: "Armor", url: "#armor" },
-              {title: "Extras", url: "#extras" },
+              {title: "Consumables", url: "#consumables" },
           ]},
         ];
 
@@ -65,20 +64,20 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
   <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
     
     <div class="wm-article-nav pull-right">
-      <a href="../blocks/" class="btn btn-xs btn-default pull-right">
+      <a href="../mobs/" class="btn btn-xs btn-default pull-right">
         Next
         <i class="fa fa-chevron-right" aria-hidden="true"></i>
       </a>
-      <a href="../blocks/" class="btn btn-xs btn-link">
-        Blocks
+      <a href="../mobs/" class="btn btn-xs btn-link">
+        Mobs
       </a>
     </div>
     
     <div class="wm-article-nav">
-      <a href="../new_player%27s_guide/" class="btn btn-xs btn-default pull-left">
+      <a href="../blocks/" class="btn btn-xs btn-default pull-left">
         <i class="fa fa-chevron-left" aria-hidden="true"></i>
-        Previous</a><a href="../new_player%27s_guide/" class="btn btn-xs btn-link">
-        Newcomer's Guide
+        Previous</a><a href="../blocks/" class="btn btn-xs btn-link">
+        Blocks
       </a>
     </div>
     
@@ -87,36 +86,196 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
     
 
     <h1 id="items">Items</h1>
-<h2 id="consumables">Consumables</h2>
-<ul>
-<li>Healing potion = 2 berry</li>
-</ul>
 <h2 id="tools">Tools</h2>
-<ul>
-<li>Shovel = Stick + Stone </li>
-<li>Axe = Stick + 2x Stone / Shovel + Stone</li>
-<li>Pickaxe = Stick + 3x Stone / Shovel + 2x Stone / Axe +  stone</li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Crafting</th>
+<th>Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Shovel</td>
+<td>Stone, stick</td>
+<td>Remove grass, sand and road</td>
+</tr>
+<tr>
+<td>Axe</td>
+<td>2 Stone, stick / Shovel, stone</td>
+<td>Cut trees</td>
+</tr>
+<tr>
+<td>Pickaxe</td>
+<td>3 Stone, stick / Shovel, 2 stone / Axe, stone</td>
+<td>Mine rock</td>
+</tr>
+<tr>
+<td>Backpack</td>
+<td>5 leather</td>
+<td>3 extra inventory slots*</td>
+</tr>
+</tbody>
+</table>
+<p>*<em>Technically two, because one is occupied by backpack. Backpacks are not stackable.</em></p>
 <h2 id="weapons">Weapons</h2>
-<ul>
-<li>Shield = 4 iron + 2 stick (blocks 2 damage)</li>
-<li>Sword = 5 iron + 1 stick (deals 3)</li>
-<li>Bow = 4 stick + string (deals 1 damage)</li>
-<li>Arrow = 1 stick + 1 iron in fletching table</li>
-<li>Mage wand = Wood wand + 1 crystal (casts fire cone dealing 2 damage)</li>
-</ul>
+<h3 id="short-range">Short range</h3>
+<table>
+<thead>
+<tr>
+<th>Weapon</th>
+<th>Crafting</th>
+<th>Damage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sword</td>
+<td>5 iron, stick</td>
+<td>1 damage</td>
+</tr>
+<tr>
+<td>Gem sword</td>
+<td>Sword, gem</td>
+<td>2 damage</td>
+</tr>
+<tr>
+<td>Battle axe</td>
+<td>-</td>
+<td>2 damage</td>
+</tr>
+<tr>
+<td>Warhammer</td>
+<td>-</td>
+<td>3 damage</td>
+</tr>
+</tbody>
+</table>
+<h3 id="long-range">Long range</h3>
+<table>
+<thead>
+<tr>
+<th>Weapon</th>
+<th>Crafting</th>
+<th>Damage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bow</td>
+<td>4 stick, string</td>
+<td>1 damage</td>
+</tr>
+<tr>
+<td>Gem bow</td>
+<td>Bow, gem</td>
+<td>2 damage</td>
+</tr>
+<tr>
+<td>Arrow</td>
+<td>1 stick, string</td>
+<td>2 damage</td>
+</tr>
+</tbody>
+</table>
+<h3 id="magic-weapons">Magic weapons</h3>
+<p>Most rare and mostly uncraftable weapons. Each wand has is a different deadly
+weapon.</p>
+<table>
+<thead>
+<tr>
+<th>Weapon</th>
+<th>Crafting</th>
+<th>Damage</th>
+<th>Cost</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Wood wand</td>
+<td>3 stick</td>
+<td>1 damage</td>
+<td>0 mana</td>
+</tr>
+<tr>
+<td>Fire staff</td>
+<td>Wood wand, gem</td>
+<td>2 damage</td>
+<td>2 mana</td>
+</tr>
+<tr>
+<td>Fireball wand</td>
+<td>-</td>
+<td>3 damage</td>
+<td>3 mana</td>
+</tr>
+</tbody>
+</table>
 <h2 id="armor">Armor</h2>
-<ul>
-<li>Gloves = 2 iron / 2 leather (blocks max 1 damage)</li>
-<li>Boots = 4 iron / 4 leather (blocks max 2 damage)</li>
-<li>Helm = 6 iron / 6 leather (blocks max 3 damage)</li>
-<li>Chestplate / Robe = 8 iron / 8 leather (blocks max 4 damage)</li>
-<li>Wood wand = 3 stick (deals close 1 damage)</li>
-</ul>
-<h2 id="extras">Extras</h2>
-<ul>
-<li>Backpack = 5 leather</li>
-</ul>
+<p>Iron and leather armor are fully craftable. Protection is maximum number of
+hitpoints blocked. Protection points stack, as long as you have armor of
+different type. Material can be leather or iron.</p>
+<table>
+<thead>
+<tr>
+<th>Armor</th>
+<th>Crafting</th>
+<th>Protection</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Gloves</td>
+<td>2 material</td>
+<td>1 protection</td>
+</tr>
+<tr>
+<td>Shield</td>
+<td>4 iron, 2 stick</td>
+<td>2 protection*</td>
+</tr>
+<tr>
+<td>Boots</td>
+<td>4 material</td>
+<td>2 protection</td>
+</tr>
+<tr>
+<td>Helm</td>
+<td>6 material</td>
+<td>2 protection</td>
+</tr>
+<tr>
+<td>Robe</td>
+<td>8 leather</td>
+<td>3 protection</td>
+</tr>
+<tr>
+<td>Chestplate</td>
+<td>8 iron</td>
+<td>3 protection</td>
+</tr>
+</tbody>
+</table>
+<p>*<em>Note that shield must be in active slot to block any damage.</em></p>
+<h2 id="consumables">Consumables</h2>
+<p>Food and drinks.</p>
+<table>
+<thead>
+<tr>
+<th>Consumable</th>
+<th>Crafting</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Health potion</td>
+<td>2 berries</td>
+<td>3 health</td>
+</tr>
+</tbody>
+</table>
 
   <br>
     
@@ -129,20 +288,20 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
   <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
     
     <div class="wm-article-nav pull-right">
-      <a href="../blocks/" class="btn btn-xs btn-default pull-right">
+      <a href="../mobs/" class="btn btn-xs btn-default pull-right">
         Next
         <i class="fa fa-chevron-right" aria-hidden="true"></i>
       </a>
-      <a href="../blocks/" class="btn btn-xs btn-link">
-        Blocks
+      <a href="../mobs/" class="btn btn-xs btn-link">
+        Mobs
       </a>
     </div>
     
     <div class="wm-article-nav">
-      <a href="../new_player%27s_guide/" class="btn btn-xs btn-default pull-left">
+      <a href="../blocks/" class="btn btn-xs btn-default pull-left">
         <i class="fa fa-chevron-left" aria-hidden="true"></i>
-        Previous</a><a href="../new_player%27s_guide/" class="btn btn-xs btn-link">
-        Newcomer's Guide
+        Previous</a><a href="../blocks/" class="btn btn-xs btn-link">
+        Blocks
       </a>
     </div>
     
