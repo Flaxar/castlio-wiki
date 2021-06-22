@@ -18,6 +18,7 @@ These updates enhance the core castlio experience.
 ### Third release
 * Server Lobby
 * Random world generation
+* Craftable Backpack
 * Proximity Chat
 
 ## Possible updates
@@ -31,7 +32,7 @@ particular order. You can provide feedback which update you would like to see ne
 * Quest NPCs
 
 ### Combat update
-* Spell categories (fire / water / grass)
-* More weapons (about 20 of them)
-* Mana potions
+* Spell categories
+* More weapons
+* Mana potion
 * Skill tree (?)

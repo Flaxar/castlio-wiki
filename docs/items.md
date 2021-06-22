@@ -1,22 +1,19 @@
 # Items
 
 ## Tools
-| Tool     | Crafting                                      | Usage                       |
-| -------- | --------------------------------------------- | --------------------------- |
-| Shovel   | Stone, stick                                  | Remove grass, sand and road |
-| Axe      | 2 Stone, stick / Shovel, stone                | Cut trees                   |
-| Pickaxe  | 3 Stone, stick / Shovel, 2 stone / Axe, stone | Mine rock                   |
-| Backpack | 5 leather                                     | 3 extra inventory slots*    |
-
-**Technically two, because one is occupied by backpack. Backpacks are not stackable.*
+| Tool      | Crafting                                      | Usage                       |
+| --------- | --------------------------------------------- | --------------------------- |
+| Shovel    | stone, stick                                  | Remove grass, sand and road |
+| Axe       | 2 stone, stick / shovel, stone                | Cut trees                   |
+| Pickaxe   | 3 stone, stick / shovel, 2 stone / axe, stone | Mine rock                   |
 
 ## Weapons
 
 ### Short range
 | Weapon         | Crafting      | Damage   |
 | -------------- | ------------- | -------- |
-| Sword          | 5 iron, stick | 1 damage |
-| Gem sword      | Sword, gem    | 2 damage |
+| Sword          | 3 iron, stick | 1 damage |
+| Gem sword      | sword, gem    | 2 damage |
 | Battle axe     | -             | 2 damage |
 | Warhammer      | -             | 3 damage |
 
@@ -24,8 +21,8 @@
 | Weapon         | Crafting        | Damage   |
 | -------------- | --------------- | -------- |
 | Bow            | 4 stick, string | 1 damage |
-| Gem bow        | Bow, gem        | 2 damage |
-| Arrow          | 1 stick, string | 2 damage |
+| Gem bow        | bow, gem        | 2 damage |
+| Arrow          | 1 stick, string | -        |
 
 ### Magic weapons
 Most rare and mostly uncraftable weapons. Each wand has is a different deadly
@@ -34,7 +31,7 @@ weapon.
 | Weapon         | Crafting       | Damage   | Cost   |
 | -------------- | -------------- | -------- | ------ |
 | Wood wand      | 3 stick        | 1 damage | 0 mana |
-| Fire staff     | Wood wand, gem | 2 damage | 2 mana |
+| Fire staff     | wood wand, gem | 2 damage | 2 mana |
 | Fireball wand  | -              | 3 damage | 3 mana |
 
 ## Armor
@@ -45,7 +42,7 @@ different type. Material can be leather or iron.
 | Armor       | Crafting        | Protection    |
 | ------------| --------------- | ------------- |
 | Gloves      | 2 material      | 1 protection  |
-| Shield      | 4 iron, 2 stick | 2 protection* |
+| Shield      | 2 iron, 1 stick | 2 protection* |
 | Boots       | 4 material      | 2 protection  |
 | Helm        | 6 material      | 2 protection  |
 | Robe        | 8 leather       | 3 protection  |

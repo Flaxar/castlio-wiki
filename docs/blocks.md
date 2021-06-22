@@ -13,13 +13,12 @@ Do not lose your keys.
 
 | Storage                | Crafting                     | Storage slots   |
 | ---------------------- | ---------------------------- | --------------- |
-| Cabinet                | 3 wood                       | 1 slot          |
-| Small Chest            | 2 wood                       | 5 slots         |
-| Large Chest            | 4 wood / Small chest, 2 wood | 7 slots         |
+| Cabinet                | 2 wood                       | 1 slot          |
+| Small Chest            | 3 wood                       | 5 slots         |
+| Large Chest            | 6 wood / small chest, 3 wood | 7 slots         |
 | Small locked chest     | small chest, gem             | 3 slots         |
 | Large locked chest     | large chest, gem             | 5 slots         |
 | Key                    | 3 gem                        | -               |
-
 
 ## Workbenches
 | Workbench          | Crafting                  | Crafting slots |
@@ -29,8 +28,8 @@ Do not lose your keys.
 | Large workbench    | medium workbench, 5 stone | 9 slots        |
 
 ## Walls
-Locked doors work in the similar manner as locked chests. You can even use
-one key for chests and doors.
+Locked doors work in the similar manner as locked chests. Key is crafted also
+the same. You can even use one key for your chests and doors.
 
 | Wall          | Crafting            |
 | ------------- | ------------------- |
@@ -44,18 +43,18 @@ one key for chests and doors.
 
 ## Decorative blocks
 | Block       | Crafting
-| ----------- | ---------------------------- |
-| Bookshelf   | 2 wood                       |
-| Road stones | 1 stone                      |
-| Sign        | 2 wood, 1 stick              |
-| Chair       | wood, 2 stick                |
-| Fireplace   | 2 stone                      |
-| Table       | wood, 4 stick                |
-| Torch       | 1 wood, 2 sticks             |
-| Bed         | 2 wood, leather              |
-| Stove       | 3 stone / fireplace, 1 stone |
+| ----------- | -------------------------- |
+| Bookshelf   | wood, leather              |
+| Road stones | stone                      |
+| Sign        | 2 wood, stick              |
+| Chair       | wood, 2 stick              |
+| Table       | wood, 4 stick              |
+| Torch       | wood, 3 stick              |
+| Fireplace   | 2 stone                    |
+| Bed         | 2 wood, leather            |
+| Stove       | 3 stone / fireplace, stone |
 
 ## Extras
-| Extra  | Crafting        |
+| Block  | Crafting        |
 | ------ | --------------- |
-| Spikes | 1 stone, 1 iron |
+| Spikes | stone, iron     |
