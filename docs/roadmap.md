@@ -5,10 +5,10 @@ Castlio is currently developed by two people. Please be patient for new updates.
 These updates enhance the core castlio experience.
 
 ### First release
-* Basic world
+* World generation
 * Crafting
 * Building
-* Enemy mobs
+* Enemies
 
 ### Second release
 * Animations
@@ -17,8 +17,7 @@ These updates enhance the core castlio experience.
 
 ### Third release
 * Server Lobby
-* Random world generation
-* Craftable Backpack
+* Backpack
 * Proximity Chat
 
 ## Possible updates
@@ -30,6 +29,7 @@ particular order. You can provide feedback which update you would like to see ne
 * Food items
 * Animals
 * Quest NPCs
+* Rivers
 
 ### Combat update
 * Spell categories
