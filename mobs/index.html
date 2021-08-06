@@ -33,6 +33,8 @@
         
         var pageToc = [
           {title: "Mobs", url: "#_top", children: [
+              {title: "Passive", url: "#passive" },
+              {title: "Hostile", url: "#hostile" },
           ]},
         ];
 
@@ -82,72 +84,149 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
     
 
     <h1 id="mobs">Mobs</h1>
+<h2 id="passive">Passive</h2>
+<p>These mobs will run from you.</p>
 <table>
 <thead>
 <tr>
-<th>Enemy mob</th>
+<th>Mob</th>
+<th>Health</th>
+<th>Distance</th>
+<th>Speed</th>
+<th>Loot</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cow</td>
+<td>2 health</td>
+<td>2 distance</td>
+<td>1 speed</td>
+<td>2 leather, 1 steak</td>
+</tr>
+<tr>
+<td>Duck</td>
+<td>1 health</td>
+<td>8 distance</td>
+<td>2 speed</td>
+<td>1 leather, 1 boiled egg</td>
+</tr>
+<tr>
+<td>Horse</td>
+<td>2 health</td>
+<td>5 distance</td>
+<td>3 speed</td>
+<td>1 leather</td>
+</tr>
+<tr>
+<td>Pig</td>
+<td>1 health</td>
+<td>1 distance</td>
+<td>1 speed</td>
+<td>2 ham</td>
+</tr>
+<tr>
+<td>Villager</td>
+<td>6 health</td>
+<td>1 distance</td>
+<td>1 speed</td>
+<td>1 robe, 2 wood</td>
+</tr>
+<tr>
+<td>Wanderer</td>
+<td>6 health</td>
+<td>1 distance</td>
+<td>1 speed</td>
+<td>1 cap, 1 wand</td>
+</tr>
+</tbody>
+</table>
+<h2 id="hostile">Hostile</h2>
+<p>These mobs will attack you.</p>
+<table>
+<thead>
+<tr>
+<th>Mob</th>
 <th>Health</th>
 <th>Damage</th>
 <th>Range</th>
+<th>Distance</th>
+<th>Speed</th>
 <th>Loot</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Crab</td>
-<td>1 health</td>
+<td>2 health</td>
 <td>1 damage</td>
-<td>1 tiles</td>
-<td>1 stone</td>
+<td>15 range</td>
+<td>1 distance</td>
+<td>2 speed</td>
+<td>1 dagger</td>
 </tr>
 <tr>
 <td>Spider</td>
-<td>2 health</td>
+<td>1 health</td>
 <td>1 damage</td>
-<td>3 tiles</td>
+<td>15 range</td>
+<td>1 distance</td>
+<td>1 speed</td>
 <td>2 string</td>
 </tr>
 <tr>
 <td>Scorpion</td>
-<td>2 health</td>
-<td>1 damage</td>
-<td>2 tiles</td>
-<td>-</td>
+<td>1 health</td>
+<td>1 ranged</td>
+<td>15 range</td>
+<td>5 distance</td>
+<td>2 speed</td>
+<td>1 gem</td>
 </tr>
 <tr>
 <td>Skeleton</td>
 <td>2 health</td>
 <td>2 damage</td>
-<td>5 tiles</td>
+<td>23 range</td>
+<td>1 distance</td>
+<td>1 speed</td>
 <td>2 bone</td>
 </tr>
 <tr>
 <td>Ghost</td>
 <td>2 health</td>
 <td>1 damage</td>
-<td>5 tiles</td>
+<td>23 range</td>
+<td>1 distance</td>
+<td>2 speed</td>
 <td>-</td>
 </tr>
 <tr>
 <td>Goblin warrior</td>
 <td>3 health</td>
 <td>3 damage</td>
-<td>8 tiles</td>
-<td>dagger</td>
+<td>30 range</td>
+<td>1 distance</td>
+<td>2 speed</td>
+<td>1 battle axe</td>
 </tr>
 <tr>
 <td>Goblin archer</td>
 <td>1 health</td>
-<td>1 damage</td>
-<td>12 tiles</td>
-<td>crossbow</td>
+<td>1 ranged</td>
+<td>30 range</td>
+<td>8 distance</td>
+<td>2 speed</td>
+<td>1 bow</td>
 </tr>
 <tr>
 <td>Goblin mage</td>
 <td>2 health</td>
-<td>2 damage</td>
-<td>10 tiles</td>
-<td>wand</td>
+<td>2 magic</td>
+<td>30 range</td>
+<td>3 distance</td>
+<td>2 speed</td>
+<td>1 fireball wand</td>
 </tr>
 </tbody>
 </table>
