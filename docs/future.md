@@ -58,12 +58,13 @@ Material can be leather, iron or string.
 | Rare neclase  | 2 gold, 1 material    |
 | Magic neclase | Shiny gem, 1 material |
 | Crown         | 6 gold                |
-| Gem Neclase   | neclase, gem          |
+| Gem neclase   | neclase, gem          |
 
 ### Extras
 | Item     | Crafting                             | Usage                       |
 | -------- | ------------------------------------ | --------------------------- |
 | Backpack | 3 leather                            | 3 extra inventory slots*    |
-| Quiver   | Backpack, string / 3 leather, string |                             |
+| Quiver   | Backpack, string / 3 leather, string | holds arrows                |
+| Hoe      | 2 stick, stone                       | collect berries and fruits  |
 
 **Technically two, because one is occupied by backpack. Backpacks are not stackable.*
