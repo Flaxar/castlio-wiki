@@ -1,6 +1,9 @@
 # Blocks
 
 ## Ingredients
+Basic ingredients are stick, stone, string, wood, leather, iron, bone and gem.
+From all of those only wood is craftable.
+
 | Ingredient | Crafting |
 | ---------- | -------- |
 | Wood       | 2 stick  |
